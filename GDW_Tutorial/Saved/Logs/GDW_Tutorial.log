@@ -10344,3 +10344,1804 @@ FPackageName: Skipped package /Game/Tutorial_2_+_3_HLOD0_Instancing has a valid,
 [2025.09.25-14.14.34:904][540]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
 [2025.09.25-14.14.34:953][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
 [2025.09.25-14.14.34:977][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.09.25-14.15.06:449][944]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.25-14.15.06:454][944]LogPlayLevel: [PlayLevel] Compiling Blocks before play...
+[2025.09.25-14.15.06:521][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.09.25-14.15.06:523][944]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (1 blueprints)
+[2025.09.25-14.15.06:523][944]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial_3
+[2025.09.25-14.15.06:525][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001918s)
+[2025.09.25-14.15.06:525][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial_3.Tutorial_3 to /Game/UEDPIE_0_Tutorial_3.Tutorial_3 (0.001952s)
+[2025.09.25-14.15.06:565][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.09.25-14.15.06:565][944]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial_3
+[2025.09.25-14.15.06:567][944]LogPlayLevel: PIE: World Init took: (0.001597s)
+[2025.09.25-14.15.06:568][944]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.09.25-14.15.06:568][944]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.25-14.15.06:568][944]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.25-14.15.06:568][944]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.25-14.15.06:568][944]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.25-14.15.06:568][944]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.25-14.15.06:568][944]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.25-14.15.06:568][944]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.25-14.15.06:568][944]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.25-14.15.06:568][944]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.25-14.15.06:568][944]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.25-14.15.06:568][944]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.25-14.15.06:570][944]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.25-14.15.06:590][944]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.25-14.15.06:590][944]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.25-14.15.06:590][944]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.25-14.15.06:590][944]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.25-14.15.06:591][944]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.09.25-14.15.06:591][944]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.09.25-14.15.06:593][944]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.09.25-14.15.06:593][944]LogInit: FAudioDevice initialized with ID 22.
+[2025.09.25-14.15.06:593][944]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.09.25-14.15.06:593][944]LogAudio: Display: Audio Device (ID: 22) registered with world 'Tutorial_3'.
+[2025.09.25-14.15.06:593][944]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.09.25-14.15.06:596][944]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.25-14.15.06:597][944]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial_3.Tutorial_3 up for play (max tick rate 60) at 2025.09.25-10.15.06
+[2025.09.25-14.15.06:597][944]LogWorld: Bringing up level for play took: 0.000829
+[2025.09.25-14.15.06:599][944]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.09.25-14.15.06:601][944]PIE: Server logged in
+[2025.09.25-14.15.06:603][944]PIE: Play in editor total start time 0.148 seconds.
+[2025.09.25-14.15.06:604][944]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:617][945]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:647][945]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.25-14.15.06:683][946]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:721][947]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:736][948]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:753][949]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:769][950]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:785][951]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:802][952]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:819][953]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:836][954]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:852][955]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:869][956]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:885][957]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:902][958]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:920][959]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:936][960]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:953][961]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:970][962]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.06:986][963]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:003][964]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:020][965]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:035][966]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:053][967]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:069][968]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:085][969]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:103][970]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:119][971]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:136][972]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:153][973]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:169][974]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:186][975]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:203][976]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:220][977]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:236][978]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:252][979]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:269][980]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:285][981]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:303][982]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:319][983]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:335][984]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:352][985]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:369][986]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:385][987]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:402][988]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:419][989]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:435][990]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:452][991]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:469][992]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:485][993]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:502][994]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:519][995]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:536][996]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:555][997]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:569][998]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:585][999]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:602][  0]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:619][  1]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:635][  2]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:652][  3]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:669][  4]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:685][  5]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:703][  6]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:719][  7]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:736][  8]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:753][  9]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:769][ 10]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:786][ 11]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:803][ 12]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:819][ 13]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:836][ 14]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:852][ 15]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:869][ 16]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:886][ 17]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:903][ 18]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:919][ 19]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:936][ 20]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:953][ 21]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:970][ 22]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.07:987][ 23]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:002][ 24]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:019][ 25]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:036][ 26]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:053][ 27]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:069][ 28]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:086][ 29]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:103][ 30]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:120][ 31]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:136][ 32]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:154][ 33]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:169][ 34]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:186][ 35]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:202][ 36]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:220][ 37]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:237][ 38]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:253][ 39]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:269][ 40]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:287][ 41]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:303][ 42]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:319][ 43]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:336][ 44]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:352][ 45]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:369][ 46]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:386][ 47]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:402][ 48]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:419][ 49]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:436][ 50]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:453][ 51]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:470][ 52]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:486][ 53]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:502][ 54]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:520][ 55]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:536][ 56]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:552][ 57]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:569][ 58]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:585][ 59]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:603][ 60]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:619][ 61]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:635][ 62]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:653][ 63]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:669][ 64]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:686][ 65]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:702][ 66]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:720][ 67]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.08:748][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-14.15.08:748][ 67]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tutorial_3
+[2025.09.25-14.15.08:748][ 67]LogWorld: UWorld::CleanupWorld for Tutorial_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.15.08:748][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.15.08:751][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.25-14.15.08:755][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.15.08:809][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-14.15.08:809][ 67]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.09.25-14.15.08:809][ 67]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2025.09.25-14.15.08:811][ 67]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2025.09.25-14.15.08:819][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.25-14.15.08:870][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.09.25-14.15.11:027][182]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.25-14.15.11:032][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.25-14.15.11:057][182]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial_3
+[2025.09.25-14.15.11:059][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001852s)
+[2025.09.25-14.15.11:059][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial_3.Tutorial_3 to /Game/UEDPIE_0_Tutorial_3.Tutorial_3 (0.001890s)
+[2025.09.25-14.15.11:081][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.09.25-14.15.11:084][182]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial_3
+[2025.09.25-14.15.11:085][182]LogPlayLevel: PIE: World Init took: (0.001333s)
+[2025.09.25-14.15.11:086][182]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.09.25-14.15.11:086][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.25-14.15.11:086][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.25-14.15.11:086][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.25-14.15.11:086][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.25-14.15.11:086][182]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.25-14.15.11:086][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.25-14.15.11:086][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.25-14.15.11:086][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.25-14.15.11:086][182]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.25-14.15.11:086][182]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.25-14.15.11:086][182]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.25-14.15.11:088][182]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.25-14.15.11:107][182]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.25-14.15.11:107][182]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.25-14.15.11:107][182]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.25-14.15.11:107][182]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.25-14.15.11:108][182]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.09.25-14.15.11:108][182]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.09.25-14.15.11:110][182]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.09.25-14.15.11:110][182]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.09.25-14.15.11:110][182]LogInit: FAudioDevice initialized with ID 23.
+[2025.09.25-14.15.11:110][182]LogAudio: Display: Audio Device (ID: 23) registered with world 'Tutorial_3'.
+[2025.09.25-14.15.11:110][182]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.09.25-14.15.11:113][182]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.25-14.15.11:114][182]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial_3.Tutorial_3 up for play (max tick rate 60) at 2025.09.25-10.15.11
+[2025.09.25-14.15.11:114][182]LogWorld: Bringing up level for play took: 0.000917
+[2025.09.25-14.15.11:116][182]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.09.25-14.15.11:118][182]PIE: Server logged in
+[2025.09.25-14.15.11:119][182]PIE: Play in editor total start time 0.088 seconds.
+[2025.09.25-14.15.11:120][182]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:132][183]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:162][183]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.25-14.15.11:191][184]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:221][185]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:237][186]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:255][187]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:271][188]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:288][189]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:304][190]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:321][191]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:338][192]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:354][193]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:371][194]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:388][195]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:404][196]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:421][197]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:438][198]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:455][199]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:471][200]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:488][201]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:504][202]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:521][203]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:538][204]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:554][205]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:571][206]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:589][207]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:608][208]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:621][209]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:638][210]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:654][211]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:671][212]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:688][213]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:705][214]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:722][215]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:739][216]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:755][217]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:771][218]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:788][219]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:805][220]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:822][221]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:839][222]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:855][223]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:872][224]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:890][225]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:905][226]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:922][227]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:940][228]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:955][229]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:972][230]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.11:988][231]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:005][232]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:022][233]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:039][234]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:056][235]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:073][236]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:090][237]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:106][238]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:122][239]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:141][240]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:156][241]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:172][242]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:189][243]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:207][244]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:223][245]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:239][246]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:256][247]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:273][248]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:289][249]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:305][250]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:322][251]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:340][252]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:356][253]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:372][254]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:390][255]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:405][256]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:422][257]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:440][258]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:455][259]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:473][260]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:489][261]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:506][262]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:523][263]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:539][264]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:556][265]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:573][266]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:590][267]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:606][268]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:623][269]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:639][270]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:656][271]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:673][272]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:689][273]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:706][274]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:723][275]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:740][276]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:756][277]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:772][278]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:789][279]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:806][280]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:823][281]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:839][282]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:855][283]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:872][284]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:889][285]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:906][286]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:922][287]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:940][288]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:957][289]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:973][290]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.12:990][291]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:007][292]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:023][293]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:040][294]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:062][295]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:077][296]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:094][297]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:110][298]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:126][299]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:142][300]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:159][301]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:176][302]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:193][303]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:209][304]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:227][305]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:243][306]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:260][307]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:276][308]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:293][309]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:309][310]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:326][311]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:342][312]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:360][313]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:377][314]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:393][315]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:409][316]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:427][317]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:443][318]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:460][319]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:476][320]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:493][321]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:510][322]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:527][323]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:543][324]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:560][325]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:576][326]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:593][327]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:610][328]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:626][329]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:644][330]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:659][331]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:676][332]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:694][333]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:710][334]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:726][335]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:743][336]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:760][337]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:777][338]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:793][339]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:810][340]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:827][341]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:842][342]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:859][343]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:876][344]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:892][345]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:909][346]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:925][347]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:942][348]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:959][349]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:975][350]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.13:993][351]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:010][352]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:026][353]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:043][354]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:059][355]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:075][356]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:092][357]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:109][358]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:125][359]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:142][360]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:159][361]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:176][362]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:193][363]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:209][364]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:225][365]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:243][366]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:260][367]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:277][368]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:293][369]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:310][370]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:326][371]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:343][372]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:359][373]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:376][374]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:394][375]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:409][376]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:426][377]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:443][378]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:459][379]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:476][380]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:493][381]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:509][382]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:527][383]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:543][384]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:559][385]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:576][386]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:593][387]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:609][388]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:627][389]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:643][390]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:659][391]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:676][392]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:692][393]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:709][394]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:725][395]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:743][396]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:759][397]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:775][398]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:793][399]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:809][400]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:825][401]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:842][402]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:859][403]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:876][404]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:893][405]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:909][406]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:925][407]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:944][408]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:960][409]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:975][410]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.14:993][411]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:010][412]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:026][413]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:042][414]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:059][415]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:076][416]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:094][417]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:110][418]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:127][419]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:142][420]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:159][421]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:177][422]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:192][423]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:209][424]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:225][425]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:243][426]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:259][427]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:276][428]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:293][429]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:310][430]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:326][431]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:343][432]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:360][433]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:377][434]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:393][435]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:409][436]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:426][437]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:443][438]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:459][439]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:477][440]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:493][441]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:509][442]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:525][443]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:543][444]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:559][445]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:576][446]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:593][447]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:609][448]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:626][449]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:643][450]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:659][451]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:677][452]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:693][453]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:709][454]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:726][455]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:743][456]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:759][457]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:777][458]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:793][459]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:810][460]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:827][461]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:843][462]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:860][463]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:876][464]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:893][465]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:910][466]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:927][467]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:944][468]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:960][469]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:977][470]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.15:994][471]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:010][472]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:027][473]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:044][474]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:060][475]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:077][476]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:094][477]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:111][478]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:127][479]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:143][480]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:160][481]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:177][482]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:193][483]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:210][484]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:227][485]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:243][486]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:260][487]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:276][488]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:293][489]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:310][490]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:327][491]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:343][492]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:360][493]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:376][494]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:393][495]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:409][496]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:426][497]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:443][498]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:460][499]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:476][500]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:494][501]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:510][502]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:527][503]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:543][504]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:559][505]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:577][506]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:594][507]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:611][508]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:627][509]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:643][510]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:660][511]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:676][512]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:694][513]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:710][514]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:726][515]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:744][516]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:761][517]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:776][518]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:794][519]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:810][520]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:827][521]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:844][522]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:861][523]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:877][524]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:894][525]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:910][526]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:927][527]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:944][528]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:960][529]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:978][530]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.16:994][531]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:011][532]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:027][533]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:043][534]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:060][535]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:077][536]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:094][537]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:111][538]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:127][539]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:143][540]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:159][541]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:177][542]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:194][543]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:209][544]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:226][545]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:243][546]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:260][547]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:277][548]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:294][549]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:311][550]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:326][551]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:344][552]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:360][553]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:376][554]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:394][555]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:410][556]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:428][557]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:443][558]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:460][559]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:477][560]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:493][561]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:510][562]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:526][563]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:544][564]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:560][565]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:577][566]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:593][567]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:610][568]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:627][569]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:643][570]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:661][571]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:678][572]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:695][573]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:711][574]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:728][575]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:744][576]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:761][577]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:777][578]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:795][579]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:811][580]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:827][581]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:843][582]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:861][583]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:878][584]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:893][585]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:910][586]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:928][587]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:944][588]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:960][589]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:977][590]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.17:994][591]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:011][592]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:027][593]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:044][594]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:061][595]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:078][596]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:095][597]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:111][598]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:128][599]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:144][600]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:161][601]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.15.18:198][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-14.15.18:198][601]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tutorial_3
+[2025.09.25-14.15.18:198][601]LogWorld: UWorld::CleanupWorld for Tutorial_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.15.18:198][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.15.18:200][601]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.25-14.15.18:203][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.15.18:243][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-14.15.18:243][601]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.09.25-14.15.18:244][601]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2025.09.25-14.15.18:245][601]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2025.09.25-14.15.18:251][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.09.25-14.15.18:305][602]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.09.25-14.17.15:615][495]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.17.15:646][495]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.17.15:761][495]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret]
+[2025.09.25-14.17.15:761][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.17.15:784][495]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/BP_Turret
+[2025.09.25-14.17.15:785][495]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_TurretF64EB972419EE4A8B85E099BCCBC90B1.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/BP_Turret.uasset'
+[2025.09.25-14.17.15:796][495]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.575 ms (total: 1.90 sec)
+[2025.09.25-14.17.15:822][495]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.17.15:822][495]LogContentValidation: Enabled validators:
+[2025.09.25-14.17.15:822][495]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.17.15:822][495]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.17.15:822][495]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.17.15:822][495]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.17.15:822][495]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.17.15:822][495]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.17.15:822][495]AssetCheck: /Game/Blueprints/Turret/BP_Turret Validating asset
+[2025.09.25-14.18.02:107][238]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_FPCharacter.BP_FPCharacter
+[2025.09.25-14.18.02:108][238]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.09.25-14.20.23:266][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.20.23:303][638]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.20.23:416][638]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret]
+[2025.09.25-14.20.23:416][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.20.23:441][638]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/BP_Turret
+[2025.09.25-14.20.23:442][638]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_Turret811445C84B223B688D82F8B2AABF784E.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/BP_Turret.uasset'
+[2025.09.25-14.20.23:453][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.235 ms (total: 2.09 sec)
+[2025.09.25-14.20.23:482][638]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.20.23:482][638]LogContentValidation: Enabled validators:
+[2025.09.25-14.20.23:482][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.20.23:482][638]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.20.23:482][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.20.23:482][638]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.20.23:482][638]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.20.23:482][638]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.20.23:483][638]AssetCheck: /Game/Blueprints/Turret/BP_Turret Validating asset
+[2025.09.25-14.20.25:208][741]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.20.25:208][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.20.25:269][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.25-14.20.37:507][476]LogDerivedDataCache: C:/Users/neche/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.25-14.23.59:403][235]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 178235
+[2025.09.25-14.23.59:403][235]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2025.09.25-14.23.59:409][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.30.31:381][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.09.25-14.30.33:405][825]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.30.33:441][825]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.30.33:544][825]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret]
+[2025.09.25-14.30.33:545][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.30.33:567][825]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/BP_Turret
+[2025.09.25-14.30.33:568][825]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_TurretFEFDA5804F18C29D060D918B017AF011.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/BP_Turret.uasset'
+[2025.09.25-14.30.33:577][825]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.517 ms (total: 2.26 sec)
+[2025.09.25-14.30.33:605][825]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.30.33:605][825]LogContentValidation: Enabled validators:
+[2025.09.25-14.30.33:605][825]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.30.33:605][825]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.30.33:605][825]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.30.33:605][825]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.30.33:605][825]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.30.33:605][825]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.30.33:605][825]AssetCheck: /Game/Blueprints/Turret/BP_Turret Validating asset
+[2025.09.25-14.30.42:823][378]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.30.42:865][378]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.30.42:865][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.30.42:881][378]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/BP_Turret
+[2025.09.25-14.30.42:881][378]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_Turret8DD1724742C95A0B6FB7959365BE85E8.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/BP_Turret.uasset'
+[2025.09.25-14.30.42:892][378]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.778 ms (total: 2.33 sec)
+[2025.09.25-14.30.42:921][378]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.30.42:921][378]LogContentValidation: Enabled validators:
+[2025.09.25-14.30.42:921][378]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.30.42:921][378]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.30.42:921][378]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.30.42:921][378]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.30.42:921][378]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.30.42:921][378]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.30.42:921][378]AssetCheck: /Game/Blueprints/Turret/BP_Turret Validating asset
+[2025.09.25-14.30.45:659][541]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.30.45:708][541]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.30.45:708][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.30.45:723][541]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/BP_Turret
+[2025.09.25-14.30.45:723][541]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_Turret49A0A3D5435B44DFAF14459B29308FFF.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/BP_Turret.uasset'
+[2025.09.25-14.30.45:733][541]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.313 ms (total: 2.40 sec)
+[2025.09.25-14.30.45:763][541]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.30.45:763][541]LogContentValidation: Enabled validators:
+[2025.09.25-14.30.45:763][541]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.30.45:763][541]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.30.45:763][541]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.30.45:763][541]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.30.45:763][541]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.30.45:763][541]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.30.45:763][541]AssetCheck: /Game/Blueprints/Turret/BP_Turret Validating asset
+[2025.09.25-14.30.48:671][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.09.25-14.31.13:465][181]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.25-14.31.13:471][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.25-14.31.13:471][181]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial_3
+[2025.09.25-14.31.13:473][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002328s)
+[2025.09.25-14.31.13:474][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial_3.Tutorial_3 to /Game/UEDPIE_0_Tutorial_3.Tutorial_3 (0.002372s)
+[2025.09.25-14.31.13:499][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.25-14.31.13:502][181]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial_3
+[2025.09.25-14.31.13:503][181]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2025.09.25-14.31.13:503][181]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.09.25-14.31.13:503][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.25-14.31.13:503][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.25-14.31.13:503][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.25-14.31.13:503][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.25-14.31.13:503][181]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.25-14.31.13:503][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.25-14.31.13:504][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.25-14.31.13:504][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.25-14.31.13:504][181]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.25-14.31.13:504][181]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.25-14.31.13:504][181]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.25-14.31.13:506][181]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.25-14.31.13:528][181]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.25-14.31.13:528][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.25-14.31.13:528][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.25-14.31.13:528][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.25-14.31.13:529][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.09.25-14.31.13:529][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.09.25-14.31.13:531][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.09.25-14.31.13:531][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.09.25-14.31.13:531][181]LogInit: FAudioDevice initialized with ID 24.
+[2025.09.25-14.31.13:531][181]LogAudio: Display: Audio Device (ID: 24) registered with world 'Tutorial_3'.
+[2025.09.25-14.31.13:531][181]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.09.25-14.31.13:535][181]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.25-14.31.13:536][181]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial_3.Tutorial_3 up for play (max tick rate 60) at 2025.09.25-10.31.13
+[2025.09.25-14.31.13:536][181]LogWorld: Bringing up level for play took: 0.000958
+[2025.09.25-14.31.13:538][181]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.09.25-14.31.13:540][181]PIE: Server logged in
+[2025.09.25-14.31.13:542][181]PIE: Play in editor total start time 0.071 seconds.
+[2025.09.25-14.31.13:543][181]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:558][182]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:583][182]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.25-14.31.13:618][183]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:647][184]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:663][185]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:680][186]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:697][187]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:714][188]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:731][189]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:747][190]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:764][191]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:781][192]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:797][193]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:814][194]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:830][195]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:847][196]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:863][197]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:881][198]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:897][199]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:914][200]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:930][201]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:947][202]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:964][203]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:980][204]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.13:997][205]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:014][206]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:030][207]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:047][208]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:064][209]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:080][210]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:096][211]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:113][212]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:129][213]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:147][214]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:164][215]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:180][216]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:196][217]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:213][218]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:230][219]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:247][220]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:263][221]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:280][222]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:296][223]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:313][224]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:330][225]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:347][226]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:363][227]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:380][228]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:397][229]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:414][230]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:430][231]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:446][232]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:463][233]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:480][234]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:497][235]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:514][236]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:530][237]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:547][238]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:563][239]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:580][240]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:596][241]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:613][242]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:630][243]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:647][244]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:664][245]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:680][246]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:697][247]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:714][248]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:731][249]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:746][250]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:763][251]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:780][252]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:797][253]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:813][254]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:830][255]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:847][256]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:863][257]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:880][258]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:897][259]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:913][260]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:930][261]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:946][262]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:963][263]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:980][264]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.14:996][265]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:014][266]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:030][267]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:047][268]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:064][269]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:080][270]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:096][271]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:114][272]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:198][277]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:214][278]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:230][279]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:246][280]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:264][281]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:280][282]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:296][283]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:313][284]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:330][285]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:347][286]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:363][287]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:380][288]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:397][289]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:413][290]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:430][291]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:446][292]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:463][293]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:480][294]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:497][295]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:514][296]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:531][297]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:547][298]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:564][299]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:581][300]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:596][301]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:614][302]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:630][303]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:647][304]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:663][305]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:680][306]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:696][307]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:713][308]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:730][309]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:746][310]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:765][311]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:780][312]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:797][313]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:813][314]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:830][315]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:847][316]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:864][317]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:880][318]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:896][319]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:914][320]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:930][321]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:946][322]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:963][323]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:980][324]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.15:997][325]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:013][326]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:030][327]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:047][328]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:063][329]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:080][330]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:096][331]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:114][332]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:130][333]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:147][334]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:163][335]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:180][336]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:197][337]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:214][338]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:230][339]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:247][340]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:263][341]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:279][342]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:296][343]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:314][344]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:330][345]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:347][346]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:364][347]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:380][348]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:397][349]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:414][350]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:430][351]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:447][352]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:463][353]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:481][354]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:497][355]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:514][356]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:530][357]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:547][358]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:564][359]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:580][360]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:597][361]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:614][362]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:630][363]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:646][364]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:664][365]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:681][366]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:696][367]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:714][368]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:730][369]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:746][370]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:763][371]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:780][372]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:797][373]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:813][374]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:830][375]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:847][376]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:863][377]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:880][378]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:897][379]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:913][380]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:930][381]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:946][382]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:964][383]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:980][384]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.16:997][385]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:014][386]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:030][387]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:047][388]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:064][389]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:080][390]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:097][391]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:114][392]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:131][393]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:147][394]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:164][395]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:180][396]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:197][397]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:214][398]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:231][399]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:247][400]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:264][401]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:281][402]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:297][403]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:314][404]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:330][405]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:347][406]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:364][407]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:380][408]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:397][409]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:414][410]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:430][411]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:447][412]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:464][413]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:480][414]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:497][415]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:514][416]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:530][417]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:547][418]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:563][419]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:580][420]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:596][421]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:614][422]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:630][423]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:647][424]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:664][425]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:680][426]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:696][427]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:713][428]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:730][429]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:747][430]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:764][431]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:780][432]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:797][433]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:813][434]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:830][435]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:847][436]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:863][437]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:880][438]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:897][439]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:914][440]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:930][441]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:947][442]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:964][443]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:980][444]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.17:997][445]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:013][446]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:030][447]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:047][448]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:063][449]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:080][450]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:096][451]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:114][452]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:130][453]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:147][454]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:163][455]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:180][456]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:197][457]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:214][458]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:230][459]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:247][460]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:263][461]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:280][462]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:297][463]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:313][464]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:330][465]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:347][466]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:364][467]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:380][468]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:396][469]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:413][470]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:430][471]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:447][472]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:463][473]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:479][474]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:497][475]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:513][476]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:530][477]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:547][478]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:563][479]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:580][480]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:597][481]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:613][482]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:629][483]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:646][484]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:663][485]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:680][486]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:696][487]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:714][488]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:731][489]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:747][490]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:763][491]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:780][492]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:796][493]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:813][494]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:830][495]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:846][496]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:864][497]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:880][498]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:897][499]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:914][500]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:930][501]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:947][502]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:963][503]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:979][504]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.18:997][505]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:013][506]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:030][507]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:047][508]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:064][509]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:079][510]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:097][511]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:114][512]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:130][513]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:146][514]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:164][515]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:179][516]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:197][517]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:214][518]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:230][519]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:247][520]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:263][521]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:280][522]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:297][523]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:314][524]LogBlueprintUserMessages: [BP_Turret_C_1] 
+[2025.09.25-14.31.19:339][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-14.31.19:339][524]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tutorial_3
+[2025.09.25-14.31.19:339][524]LogWorld: UWorld::CleanupWorld for Tutorial_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.31.19:339][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.31.19:343][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.25-14.31.19:349][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.31.19:387][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-14.31.19:388][524]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.09.25-14.31.19:388][524]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2025.09.25-14.31.19:391][524]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2025.09.25-14.31.19:399][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.09.25-14.31.19:476][525]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.09.25-14.31.48:249][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.31.48:281][210]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.31.48:384][210]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret]
+[2025.09.25-14.31.48:384][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.31.48:408][210]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/BP_Turret
+[2025.09.25-14.31.48:409][210]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_Turret611878CB4499C94A91516EAD4F340372.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/BP_Turret.uasset'
+[2025.09.25-14.31.48:421][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.329 ms (total: 2.57 sec)
+[2025.09.25-14.31.48:451][210]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.31.48:451][210]LogContentValidation: Enabled validators:
+[2025.09.25-14.31.48:451][210]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.31.48:451][210]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.31.48:451][210]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.31.48:451][210]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.31.48:451][210]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.31.48:451][210]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.31.48:451][210]AssetCheck: /Game/Blueprints/Turret/BP_Turret Validating asset
+[2025.09.25-14.31.49:510][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.09.25-14.33.29:009][ 93]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Blueprints/Turret/Assets/Base.Base
+[2025.09.25-14.33.29:014][ 93]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.09.25-14.34.14:774][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.25-14.34.14:789][ 33]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Tutorial_3_Auto2
+[2025.09.25-14.34.14:789][ 33]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/Tutorial_3_Auto2BE6A539D42E651C1579768A35621FB80.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/Autosaves/Game/Tutorial_3_Auto2.umap'
+[2025.09.25-14.34.14:789][ 33]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Tutorial_3' took 0.050
+[2025.09.25-14.34.14:789][ 33]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
+[2025.09.25-14.34.14:790][ 33]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.34.14:962][ 33]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret]
+[2025.09.25-14.34.14:963][ 33]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.34.14:980][ 33]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Turret/BP_Turret_Auto2
+[2025.09.25-14.34.14:980][ 33]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_Turret_Auto2B5B74469464AEADD6179F9B3909AAE5F.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/Autosaves/Game/Blueprints/Turret/BP_Turret_Auto2.uasset'
+[2025.09.25-14.34.14:980][ 33]LogFileHelpers: Auto-saving content packages took 0.191
+[2025.09.25-14.36.31:746][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.09.25-14.36.33:592][332]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.25-14.36.33:804][332]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.36.33:804][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.36.33:843][332]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.09.25-14.36.33:843][332]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.36.33:843][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.36.33:928][332]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.36.33:928][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.36.33:977][332]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/Blueprints/Turret/Assets/BarrelMaterial.BarrelMaterial
+	Asset Type: Material
+	Asset Name: /Game/Blueprints/Turret/Assets/Barrels.Barrels
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/Base.Base
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/BaseMaterial.BaseMaterial
+	Asset Type: Material
+	Asset Name: /Game/Blueprints/Turret/Assets/Tower.Tower
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/Turret.Turret
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/TurretMaterial.TurretMaterial
+	Asset Type: Material
+[2025.09.25-14.36.34:524][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.09.25-14.36.34:557][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.09.25-14.36.34:579][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.25-14.36.34:613][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.09.25-14.36.37:323][479]LogStreaming: Display: FlushAsyncLoading(1020): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.36.38:569][479]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/neche/OneDrive/Documents/Fall25Win26/GDW/Turret.fbx]
+[2025.09.25-14.36.40:611][479]LogSlate: Window 'Import Content' being destroyed
+[2025.09.25-14.36.40:633][479]LogInterchangeEngine: [Pending] Importing
+[2025.09.25-14.36.40:677][480]LogStreaming: Display: FlushAsyncLoading(1053): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.36.40:693][481]LogStreaming: Display: FlushAsyncLoading(1056): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.36.40:749][483]LogStaticMesh: Display: Building static mesh Turret (Required Memory Estimate: 0.026716 MB)...
+[2025.09.25-14.36.40:749][483]LogStaticMesh: Display: Building static mesh Barrels_001 (Required Memory Estimate: 0.591108 MB)...
+[2025.09.25-14.36.40:749][483]LogStaticMesh: Display: Building static mesh Base (Required Memory Estimate: 0.393667 MB)...
+[2025.09.25-14.36.40:749][483]LogStaticMesh: Display: Building static mesh Barrels (Required Memory Estimate: 0.591108 MB)...
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Reduce [0.00s]
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2025.09.25-14.36.40:750][483]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.36.40:750][483]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 14 Vertices
+[2025.09.25-14.36.40:750][483]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 14 Vertices
+[2025.09.25-14.36.40:750][483]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 14 Vertices
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.36.40:750][483]LogStaticMesh: WritePages:
+[2025.09.25-14.36.40:750][483]LogStaticMesh:   Root: GPU size: 332 bytes. 1 Pages. 332.000 bytes per page (1.013% utilization).
+[2025.09.25-14.36.40:750][483]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.36.40:750][483]LogStaticMesh:   Page data disk size: 472 bytes. Fixup data size: 24 bytes.
+[2025.09.25-14.36.40:750][483]LogStaticMesh:   Total GPU size: 332 bytes, Total disk size: 496 bytes.
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.36.40:750][483]LogStaticMesh: NaniteBuild [0.00s]
+[2025.09.25-14.36.40:750][483]LogStaticMesh: Adjacency [0.00s], tris: 248, UVs 1
+[2025.09.25-14.36.40:751][483]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.36.40:751][483]LogStaticMesh: Adjacency [0.00s], tris: 380, UVs 1
+[2025.09.25-14.36.40:751][483]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.36.40:751][483]LogStaticMesh: Adjacency [0.00s], tris: 380, UVs 1
+[2025.09.25-14.36.40:751][483]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.36.40:751][483]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.36.40:751][483]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.36.40:751][483]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.36.40:752][483]LogStaticMesh: Built static mesh [0.00s] /Game/Blueprints/Turret/Assets/Turret.Turret
+[2025.09.25-14.36.40:755][483]LogStaticMesh: Reduce [0.00s]
+[2025.09.25-14.36.40:755][483]LogStaticMesh: Fallback [0.00s], num tris: 248
+[2025.09.25-14.36.40:755][483]LogStaticMesh: Fallback [0.00s], num tris: 248
+[2025.09.25-14.36.40:755][483]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.36.40:755][483]LogStaticMesh:   Input: 3 Clusters, 374 Triangles and 420 Vertices
+[2025.09.25-14.36.40:755][483]LogStaticMesh:   Output without splits: 3 Clusters, 374 Triangles and 420 Vertices
+[2025.09.25-14.36.40:755][483]LogStaticMesh:   Output with splits: 3 Clusters, 374 Triangles and 420 Vertices
+[2025.09.25-14.36.40:755][483]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 3, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.36.40:756][483]LogStaticMesh: WritePages:
+[2025.09.25-14.36.40:756][483]LogStaticMesh:   Root: GPU size: 5632 bytes. 1 Pages. 5632.000 bytes per page (17.188% utilization).
+[2025.09.25-14.36.40:756][483]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.36.40:756][483]LogStaticMesh:   Page data disk size: 5136 bytes. Fixup data size: 40 bytes.
+[2025.09.25-14.36.40:756][483]LogStaticMesh:   Total GPU size: 5632 bytes, Total disk size: 5176 bytes.
+[2025.09.25-14.36.40:756][483]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.36.40:756][483]LogStaticMesh: NaniteBuild [0.01s]
+[2025.09.25-14.36.40:759][483]LogStaticMesh: Reduce [0.01s]
+[2025.09.25-14.36.40:762][483]LogStaticMesh: Reduce [0.01s]
+[2025.09.25-14.36.40:763][483]LogStaticMesh: Fallback [0.00s], num tris: 276
+[2025.09.25-14.36.40:766][483]LogStaticMesh: Fallback [0.00s], num tris: 276
+[2025.09.25-14.36.40:766][483]LogStaticMesh: Built static mesh [0.02s] /Game/Blueprints/Turret/Assets/Base.Base
+[2025.09.25-14.36.40:768][483]LogStaticMesh: Fallback [0.00s], num tris: 256
+[2025.09.25-14.36.40:768][483]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.36.40:768][483]LogStaticMesh:   Input: 6 Clusters, 758 Triangles and 578 Vertices
+[2025.09.25-14.36.40:768][483]LogStaticMesh:   Output without splits: 6 Clusters, 758 Triangles and 593 Vertices
+[2025.09.25-14.36.40:768][483]LogStaticMesh:   Output with splits: 6 Clusters, 758 Triangles and 593 Vertices
+[2025.09.25-14.36.40:768][483]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 6, Slow Path Clusters: 0, 1 Material: 6, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.36.40:768][483]LogStaticMesh: WritePages:
+[2025.09.25-14.36.40:769][483]LogStaticMesh:   Root: GPU size: 8296 bytes. 1 Pages. 8296.000 bytes per page (25.317% utilization).
+[2025.09.25-14.36.40:769][483]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.36.40:769][483]LogStaticMesh:   Page data disk size: 6788 bytes. Fixup data size: 56 bytes.
+[2025.09.25-14.36.40:769][483]LogStaticMesh:   Total GPU size: 8296 bytes, Total disk size: 6844 bytes.
+[2025.09.25-14.36.40:769][483]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.36.40:769][483]LogStaticMesh: NaniteBuild [0.02s]
+[2025.09.25-14.36.40:771][483]LogStaticMesh: Fallback [0.00s], num tris: 256
+[2025.09.25-14.36.40:772][483]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.36.40:772][483]LogStaticMesh:   Input: 6 Clusters, 758 Triangles and 587 Vertices
+[2025.09.25-14.36.40:772][483]LogStaticMesh:   Output without splits: 6 Clusters, 758 Triangles and 602 Vertices
+[2025.09.25-14.36.40:772][483]LogStaticMesh:   Output with splits: 6 Clusters, 758 Triangles and 602 Vertices
+[2025.09.25-14.36.40:772][483]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 6, Slow Path Clusters: 0, 1 Material: 6, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.36.40:772][483]LogStaticMesh: WritePages:
+[2025.09.25-14.36.40:772][483]LogStaticMesh:   Root: GPU size: 8400 bytes. 1 Pages. 8400.000 bytes per page (25.635% utilization).
+[2025.09.25-14.36.40:772][483]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.36.40:772][483]LogStaticMesh:   Page data disk size: 6824 bytes. Fixup data size: 56 bytes.
+[2025.09.25-14.36.40:772][483]LogStaticMesh:   Total GPU size: 8400 bytes, Total disk size: 6880 bytes.
+[2025.09.25-14.36.40:772][483]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.36.40:772][483]LogStaticMesh: NaniteBuild [0.02s]
+[2025.09.25-14.36.40:777][483]LogStaticMesh: Built static mesh [0.03s] /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001
+[2025.09.25-14.36.40:780][483]LogStaticMesh: Built static mesh [0.03s] /Game/Blueprints/Turret/Assets/Barrels.Barrels
+[2025.09.25-14.36.40:800][483]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=5.107 Y=4.689 Z=75.346, BoxExtent=(X=156.548 Y=155.543 Z=81.497), SphereRadius=(211.061447)) and MeshDescription Bounds (Origin=X=0.000 Y=-0.000 Z=75.000, BoxExtent=(X=150.000 Y=150.000 Z=75.000), SphereRadius=(167.705100)) is significative for StaticMesh /Game/Blueprints/Turret/Assets/Base.Base
+[2025.09.25-14.36.40:984][485]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=5.107 Y=4.689 Z=75.346, BoxExtent=(X=156.548 Y=155.543 Z=81.497), SphereRadius=(211.061447)) and MeshDescription Bounds (Origin=X=0.000 Y=-0.000 Z=75.000, BoxExtent=(X=150.000 Y=150.000 Z=75.000), SphereRadius=(167.705100)) is significative for StaticMesh /Game/Blueprints/Turret/Assets/Base.Base
+[2025.09.25-14.36.41:045][485]LogInterchangeEngine: Display: Interchange import completed [C:/Users/neche/OneDr...ents/Fall25Win26/GDW/Turret.fbx]
+[2025.09.25-14.36.41:045][485]Interchange: Warning: [C:/Users/neche/OneDrive/Documents/Fall25Win26/GDW/Turret.fbx : 'Turret', StaticMesh] No smoothing group information was found for this mesh 'Cube_001' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.09.25-14.36.41:045][485]Interchange: Warning: [C:/Users/neche/OneDrive/Documents/Fall25Win26/GDW/Turret.fbx : 'Base', StaticMesh] No smoothing group information was found for this mesh 'Cylinder' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.09.25-14.36.41:045][485]Interchange: Warning: [C:/Users/neche/OneDrive/Documents/Fall25Win26/GDW/Turret.fbx : 'Barrels', StaticMesh] No smoothing group information was found for this mesh 'Cylinder_002' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.09.25-14.36.41:045][485]Interchange: Warning: [C:/Users/neche/OneDrive/Documents/Fall25Win26/GDW/Turret.fbx : 'Barrels_001', StaticMesh] No smoothing group information was found for this mesh 'Cylinder_003' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.09.25-14.36.41:052][485]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.09.25-14.36.41:052][485]LogInterchangeEngine: [Success] Import Done
+[2025.09.25-14.36.41:125][487]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/BarrelMaterial.BarrelMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.36.41:244][490]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/TurretMaterial.TurretMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.36.41:366][493]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/BaseMaterial.BaseMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.37.26:446][471]LogSlate: Window 'Message Log' being destroyed
+[2025.09.25-14.37.26:452][471]LogSlate: Window 'Message Log' being destroyed
+[2025.09.25-14.37.30:850][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.09.25-14.37.33:321][675]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.25-14.37.33:345][675]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/Blueprints/Turret/Assets/TurretMaterial.TurretMaterial
+	Asset Type: Material
+	Asset Name: /Game/Blueprints/Turret/Assets/Turret.Turret
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/BaseMaterial.BaseMaterial
+	Asset Type: Material
+	Asset Name: /Game/Blueprints/Turret/Assets/Base.Base
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/Barrels.Barrels
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/BarrelMaterial.BarrelMaterial
+	Asset Type: Material
+[2025.09.25-14.37.33:679][675]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=5.107 Y=4.689 Z=75.346, BoxExtent=(X=156.548 Y=155.543 Z=81.497), SphereRadius=(211.061447)) and MeshDescription Bounds (Origin=X=0.000 Y=-0.000 Z=75.000, BoxExtent=(X=150.000 Y=150.000 Z=75.000), SphereRadius=(167.705100)) is significative for StaticMesh /Game/Blueprints/Turret/Assets/Base.Base
+[2025.09.25-14.37.33:711][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.09.25-14.37.33:734][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.09.25-14.37.33:757][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.09.25-14.37.37:604][823]LogStreaming: Display: FlushAsyncLoading(1060): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.37.37:636][823]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/neche/OneDrive/Documents/Fall25Win26/GDW/Turret.fbx]
+[2025.09.25-14.37.38:929][823]LogSlate: Window 'Import Content' being destroyed
+[2025.09.25-14.37.38:949][823]LogInterchangeEngine: [Pending] Importing
+[2025.09.25-14.37.38:993][824]LogStreaming: Display: FlushAsyncLoading(1061): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.37.39:009][825]LogStreaming: Display: FlushAsyncLoading(1064): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.37.39:078][827]LogStaticMesh: Display: Building static mesh Barrels (Required Memory Estimate: 0.591108 MB)...
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Display: Building static mesh Turret (Required Memory Estimate: 0.026716 MB)...
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Display: Building static mesh Base (Required Memory Estimate: 0.393667 MB)...
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Display: Building static mesh Barrels_001 (Required Memory Estimate: 0.591108 MB)...
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Reduce [0.00s]
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2025.09.25-14.37.39:080][827]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.37.39:080][827]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2025.09.25-14.37.39:080][827]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2025.09.25-14.37.39:080][827]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.37.39:080][827]LogStaticMesh: WritePages:
+[2025.09.25-14.37.39:080][827]LogStaticMesh:   Root: GPU size: 436 bytes. 1 Pages. 436.000 bytes per page (1.331% utilization).
+[2025.09.25-14.37.39:080][827]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.37.39:080][827]LogStaticMesh:   Page data disk size: 592 bytes. Fixup data size: 24 bytes.
+[2025.09.25-14.37.39:080][827]LogStaticMesh:   Total GPU size: 436 bytes, Total disk size: 616 bytes.
+[2025.09.25-14.37.39:080][827]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.37.39:080][827]LogStaticMesh: NaniteBuild [0.00s]
+[2025.09.25-14.37.39:081][827]LogStaticMesh: Built static mesh [0.00s] /Game/Blueprints/Turret/Assets/Turret.Turret
+[2025.09.25-14.37.39:081][827]LogStaticMesh: Adjacency [0.00s], tris: 248, UVs 1
+[2025.09.25-14.37.39:081][827]LogStaticMesh: Adjacency [0.00s], tris: 380, UVs 1
+[2025.09.25-14.37.39:081][827]LogStaticMesh: Adjacency [0.00s], tris: 380, UVs 1
+[2025.09.25-14.37.39:082][827]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.37.39:082][827]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.37.39:082][827]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.37.39:082][827]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.37.39:082][827]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.37.39:082][827]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.37.39:087][827]LogStaticMesh: Reduce [0.01s]
+[2025.09.25-14.37.39:088][827]LogStaticMesh: Fallback [0.00s], num tris: 248
+[2025.09.25-14.37.39:088][827]LogStaticMesh: Fallback [0.00s], num tris: 248
+[2025.09.25-14.37.39:088][827]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.37.39:088][827]LogStaticMesh:   Input: 3 Clusters, 374 Triangles and 653 Vertices
+[2025.09.25-14.37.39:088][827]LogStaticMesh:   Output without splits: 3 Clusters, 374 Triangles and 653 Vertices
+[2025.09.25-14.37.39:088][827]LogStaticMesh:   Output with splits: 4 Clusters, 374 Triangles and 657 Vertices
+[2025.09.25-14.37.39:088][827]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 4, Slow Path Clusters: 0, 1 Material: 4, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.37.39:089][827]LogStaticMesh: WritePages:
+[2025.09.25-14.37.39:089][827]LogStaticMesh:   Root: GPU size: 8188 bytes. 1 Pages. 8188.000 bytes per page (24.988% utilization).
+[2025.09.25-14.37.39:089][827]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.37.39:089][827]LogStaticMesh:   Page data disk size: 8584 bytes. Fixup data size: 40 bytes.
+[2025.09.25-14.37.39:089][827]LogStaticMesh:   Total GPU size: 8188 bytes, Total disk size: 8624 bytes.
+[2025.09.25-14.37.39:089][827]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.37.39:089][827]LogStaticMesh: NaniteBuild [0.01s]
+[2025.09.25-14.37.39:094][827]LogStaticMesh: Reduce [0.01s]
+[2025.09.25-14.37.39:094][827]LogStaticMesh: Reduce [0.01s]
+[2025.09.25-14.37.39:095][827]LogStaticMesh: Fallback [0.00s], num tris: 378
+[2025.09.25-14.37.39:095][827]LogStaticMesh: Fallback [0.00s], num tris: 378
+[2025.09.25-14.37.39:099][827]LogStaticMesh: Fallback [0.00s], num tris: 324
+[2025.09.25-14.37.39:099][827]LogStaticMesh: Fallback [0.00s], num tris: 322
+[2025.09.25-14.37.39:100][827]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Input: 6 Clusters, 758 Triangles and 1309 Vertices
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Output without splits: 6 Clusters, 758 Triangles and 1309 Vertices
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Output with splits: 7 Clusters, 758 Triangles and 1309 Vertices
+[2025.09.25-14.37.39:100][827]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.37.39:100][827]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Input: 6 Clusters, 758 Triangles and 1284 Vertices
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Output without splits: 6 Clusters, 758 Triangles and 1284 Vertices
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Output with splits: 7 Clusters, 758 Triangles and 1286 Vertices
+[2025.09.25-14.37.39:100][827]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.37.39:100][827]LogStaticMesh: WritePages:
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Root: GPU size: 15508 bytes. 1 Pages. 15508.000 bytes per page (47.327% utilization).
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Page data disk size: 13812 bytes. Fixup data size: 56 bytes.
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Total GPU size: 15508 bytes, Total disk size: 13868 bytes.
+[2025.09.25-14.37.39:100][827]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.37.39:100][827]LogStaticMesh: NaniteBuild [0.02s]
+[2025.09.25-14.37.39:100][827]LogStaticMesh: WritePages:
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Root: GPU size: 15336 bytes. 1 Pages. 15336.000 bytes per page (46.802% utilization).
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Page data disk size: 13500 bytes. Fixup data size: 56 bytes.
+[2025.09.25-14.37.39:100][827]LogStaticMesh:   Total GPU size: 15336 bytes, Total disk size: 13556 bytes.
+[2025.09.25-14.37.39:100][827]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.37.39:100][827]LogStaticMesh: NaniteBuild [0.02s]
+[2025.09.25-14.37.39:101][827]LogStaticMesh: Built static mesh [0.02s] /Game/Blueprints/Turret/Assets/Base.Base
+[2025.09.25-14.37.39:118][827]LogStaticMesh: Built static mesh [0.04s] /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001
+[2025.09.25-14.37.39:119][827]LogStaticMesh: Built static mesh [0.04s] /Game/Blueprints/Turret/Assets/Barrels.Barrels
+[2025.09.25-14.37.39:331][830]LogInterchangeEngine: Display: Interchange import completed [C:/Users/neche/OneDr...ents/Fall25Win26/GDW/Turret.fbx]
+[2025.09.25-14.37.39:332][830]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.09.25-14.37.39:332][830]LogInterchangeEngine: [Success] Import Done
+[2025.09.25-14.37.39:389][832]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/BarrelMaterial.BarrelMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.37.39:480][835]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/TurretMaterial.TurretMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.37.39:612][840]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/BaseMaterial.BaseMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.37.41:847][964]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret
+[2025.09.25-14.37.41:848][964]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret
+[2025.09.25-14.37.41:848][964]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret as actor: StaticMeshActor /Game/Tutorial_3.Tutorial_3:PersistentLevel.StaticMeshActor_1
+[2025.09.25-14.37.42:146][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.25-14.37.42:151][980]LogEditorActor: Deleted 0 Actors (0.033 secs)
+[2025.09.25-14.37.42:157][980]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret
+[2025.09.25-14.37.42:157][980]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret
+[2025.09.25-14.37.42:158][980]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret as actor: StaticMeshActor /Game/Tutorial_3.Tutorial_3:PersistentLevel.StaticMeshActor_2
+[2025.09.25-14.37.42:953][ 23]Cmd: TRANSACTION UNDO
+[2025.09.25-14.37.42:953][ 23]LogEditorTransaction: Undo Place Objects
+[2025.09.25-14.37.44:087][ 75]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001
+[2025.09.25-14.37.44:087][ 75]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001
+[2025.09.25-14.37.44:087][ 75]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001 as actor: StaticMeshActor /Game/Tutorial_3.Tutorial_3:PersistentLevel.StaticMeshActor_3
+[2025.09.25-14.37.44:310][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.25-14.37.44:314][ 86]LogEditorActor: Deleted 0 Actors (0.036 secs)
+[2025.09.25-14.37.44:320][ 86]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001
+[2025.09.25-14.37.44:320][ 86]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001
+[2025.09.25-14.37.44:321][ 86]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001 as actor: StaticMeshActor /Game/Tutorial_3.Tutorial_3:PersistentLevel.StaticMeshActor_4
+[2025.09.25-14.37.45:463][149]Cmd: TRANSACTION UNDO
+[2025.09.25-14.37.45:463][149]LogEditorTransaction: Undo Place Objects
+[2025.09.25-14.37.50:215][415]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret
+[2025.09.25-14.37.50:216][415]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.09.25-14.38.07:156][402]LogEditorTransaction: Undo Add Component
+[2025.09.25-14.38.31:028][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.09.25-14.38.44:661][813]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.25-14.38.47:504][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.25-14.38.55:007][958]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.25-14.38.55:077][958]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Blocks.Blocks
+	Asset Type: Blueprint
+[2025.09.25-14.38.55:288][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.09.25-14.38.55:356][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.25-14.38.55:377][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.25-14.38.55:398][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.09.25-14.39.05:707][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.09.25-14.39.14:869][550]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.25-14.39.14:995][550]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.39.14:995][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.39.15:015][550]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Turret/BP_Turret.BP_Turret
+	Asset Type: Blueprint
+[2025.09.25-14.39.15:216][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.09.25-14.39.15:275][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.09.25-14.39.15:295][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.09.25-14.39.15:317][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.09.25-14.39.15:347][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.09.25-14.39.23:405][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.39.23:523][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.09.25-14.39.23:537][ 14]LogSavePackage: Moving output files for package: /Game/Tutorial_3
+[2025.09.25-14.39.23:538][ 14]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/Tutorial_36A82D68049BE87B16B91F881BCBF1259.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Tutorial_3.umap'
+[2025.09.25-14.39.23:543][ 14]LogFileHelpers: Saving map 'Tutorial_3' took 0.079
+[2025.09.25-14.39.23:554][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.528 ms (total: 2.72 sec)
+[2025.09.25-14.39.23:582][ 14]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.39.23:582][ 14]LogContentValidation: Enabled validators:
+[2025.09.25-14.39.23:582][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.39.23:582][ 14]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.39.23:582][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.39.23:582][ 14]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.39.23:582][ 14]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.39.23:582][ 14]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.39.23:582][ 14]AssetCheck: /Game/Tutorial_3 Validating asset
+[2025.09.25-14.39.31:078][227]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.25-14.39.31:095][227]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.25-14.39.31:104][227]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.25-14.39.31:113][228]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.25-14.39.34:409][420]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Turret
+[2025.09.25-14.39.34:415][420]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.25-14.39.35:829][504]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret
+[2025.09.25-14.39.35:829][504]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.09.25-14.40.27:815][561]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.40.27:847][561]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.40.27:858][561]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret]
+[2025.09.25-14.40.27:858][561]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.40.27:868][561]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/BP_Turret
+[2025.09.25-14.40.27:868][561]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_Turret83AD7AB2425E04954B07E7940ABC352D.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/BP_Turret.uasset'
+[2025.09.25-14.40.27:877][561]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.820 ms (total: 2.78 sec)
+[2025.09.25-14.40.27:908][561]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.40.27:908][561]LogContentValidation: Enabled validators:
+[2025.09.25-14.40.27:908][561]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.40.27:908][561]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.40.27:908][561]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.40.27:908][561]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.40.27:908][561]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.40.27:908][561]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.40.27:908][561]AssetCheck: /Game/Blueprints/Turret/BP_Turret Validating asset
+[2025.09.25-14.40.34:901][963]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Blueprints/Turret/Assets/Base.Base
+[2025.09.25-14.40.34:907][963]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.09.25-14.40.50:150][828]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.40.50:170][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/Base] ([1] browsable assets)...
+[2025.09.25-14.40.50:179][828]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprints/Turret/Assets/Base.Base]
+[2025.09.25-14.40.50:179][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/Base]
+[2025.09.25-14.40.50:189][828]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/Base
+[2025.09.25-14.40.50:189][828]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BaseAF13E8F94C69BD4DAF452E94114F015B.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/Base.uasset'
+[2025.09.25-14.40.50:197][828]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.804 ms (total: 2.83 sec)
+[2025.09.25-14.40.50:227][828]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.40.50:227][828]LogContentValidation: Enabled validators:
+[2025.09.25-14.40.50:227][828]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.40.50:227][828]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.40.50:227][828]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.40.50:227][828]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.40.50:227][828]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.40.50:227][828]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.40.50:227][828]AssetCheck: /Game/Blueprints/Turret/Assets/Base Validating asset
+[2025.09.25-14.40.51:636][911]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.40.51:637][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.40.51:698][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.25-14.41.17:312][431]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret
+[2025.09.25-14.41.17:317][431]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.09.25-14.41.41:046][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.41.41:071][807]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/Turret] ([1] browsable assets)...
+[2025.09.25-14.41.41:080][807]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret]
+[2025.09.25-14.41.41:080][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/Turret]
+[2025.09.25-14.41.41:089][807]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/Turret
+[2025.09.25-14.41.41:089][807]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/Turret0684D6924FB8B76FEC13738B0140AAF6.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/Turret.uasset'
+[2025.09.25-14.41.41:098][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 50.800 ms (total: 2.88 sec)
+[2025.09.25-14.41.41:118][807]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.41.41:118][807]LogContentValidation: Enabled validators:
+[2025.09.25-14.41.41:118][807]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.41.41:118][807]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.41.41:118][807]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.41.41:118][807]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.41.41:118][807]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.41.41:118][807]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.41.41:118][807]AssetCheck: /Game/Blueprints/Turret/Assets/Turret Validating asset
+[2025.09.25-14.41.42:333][878]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.41.42:333][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.41.42:416][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.25-14.43.32:465][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.25-14.43.34:101][625]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.25-14.43.34:211][625]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.43.34:211][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.43.34:235][625]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/Blueprints/Turret/Assets/BarrelMaterial.BarrelMaterial
+	Asset Type: Material
+	Asset Name: /Game/Blueprints/Turret/Assets/Barrels.Barrels
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/Barrels_001.Barrels_001
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/Base.Base
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/BaseMaterial.BaseMaterial
+	Asset Type: Material
+	Asset Name: /Game/Blueprints/Turret/Assets/Turret.Turret
+	Asset Type: StaticMesh
+	Asset Name: /Game/Blueprints/Turret/Assets/TurretMaterial.TurretMaterial
+	Asset Type: Material
+[2025.09.25-14.43.34:627][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.25-14.43.34:662][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.09.25-14.43.34:683][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.09.25-14.43.34:714][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.09.25-14.43.38:962][788]LogStreaming: Display: FlushAsyncLoading(1068): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.43.38:994][788]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/neche/OneDrive/Documents/Fall25Win26/GDW/Turret.fbx]
+[2025.09.25-14.43.41:296][788]LogSlate: Window 'Import Content' being destroyed
+[2025.09.25-14.43.41:314][788]LogInterchangeEngine: [Pending] Importing
+[2025.09.25-14.43.41:348][789]LogStreaming: Display: FlushAsyncLoading(1069): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.43.41:366][790]LogStreaming: Display: FlushAsyncLoading(1072): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Display: Building static mesh BarrelR (Required Memory Estimate: 0.591108 MB)...
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Display: Building static mesh BarrelL (Required Memory Estimate: 0.591108 MB)...
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Display: Building static mesh Turret (Required Memory Estimate: 0.026716 MB)...
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Display: Building static mesh Base (Required Memory Estimate: 0.393667 MB)...
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Reduce [0.00s]
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2025.09.25-14.43.41:450][792]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.43.41:450][792]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2025.09.25-14.43.41:450][792]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2025.09.25-14.43.41:450][792]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.43.41:450][792]LogStaticMesh: WritePages:
+[2025.09.25-14.43.41:450][792]LogStaticMesh:   Root: GPU size: 436 bytes. 1 Pages. 436.000 bytes per page (1.331% utilization).
+[2025.09.25-14.43.41:450][792]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.43.41:450][792]LogStaticMesh:   Page data disk size: 592 bytes. Fixup data size: 24 bytes.
+[2025.09.25-14.43.41:450][792]LogStaticMesh:   Total GPU size: 436 bytes, Total disk size: 616 bytes.
+[2025.09.25-14.43.41:450][792]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.43.41:450][792]LogStaticMesh: NaniteBuild [0.00s]
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Adjacency [0.00s], tris: 248, UVs 1
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Built static mesh [0.01s] /Game/Blueprints/Turret/Assets/Turret.Turret
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Adjacency [0.00s], tris: 380, UVs 1
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Adjacency [0.00s], tris: 380, UVs 1
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.43.41:451][792]LogStaticMesh: Leaves [0.00s]
+[2025.09.25-14.43.41:455][792]LogStaticMesh: Reduce [0.00s]
+[2025.09.25-14.43.41:457][792]LogStaticMesh: Fallback [0.00s], num tris: 248
+[2025.09.25-14.43.41:457][792]LogStaticMesh: Fallback [0.00s], num tris: 248
+[2025.09.25-14.43.41:458][792]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.43.41:458][792]LogStaticMesh:   Input: 3 Clusters, 374 Triangles and 653 Vertices
+[2025.09.25-14.43.41:458][792]LogStaticMesh:   Output without splits: 3 Clusters, 374 Triangles and 653 Vertices
+[2025.09.25-14.43.41:458][792]LogStaticMesh:   Output with splits: 4 Clusters, 374 Triangles and 657 Vertices
+[2025.09.25-14.43.41:458][792]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 4, Slow Path Clusters: 0, 1 Material: 4, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.43.41:458][792]LogStaticMesh: WritePages:
+[2025.09.25-14.43.41:458][792]LogStaticMesh:   Root: GPU size: 8188 bytes. 1 Pages. 8188.000 bytes per page (24.988% utilization).
+[2025.09.25-14.43.41:458][792]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.43.41:458][792]LogStaticMesh:   Page data disk size: 8584 bytes. Fixup data size: 40 bytes.
+[2025.09.25-14.43.41:458][792]LogStaticMesh:   Total GPU size: 8188 bytes, Total disk size: 8624 bytes.
+[2025.09.25-14.43.41:458][792]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.43.41:458][792]LogStaticMesh: NaniteBuild [0.01s]
+[2025.09.25-14.43.41:463][792]LogStaticMesh: Reduce [0.01s]
+[2025.09.25-14.43.41:463][792]LogStaticMesh: Reduce [0.01s]
+[2025.09.25-14.43.41:464][792]LogStaticMesh: Fallback [0.00s], num tris: 378
+[2025.09.25-14.43.41:464][792]LogStaticMesh: Fallback [0.00s], num tris: 378
+[2025.09.25-14.43.41:468][792]LogStaticMesh: Fallback [0.00s], num tris: 324
+[2025.09.25-14.43.41:468][792]LogStaticMesh: Fallback [0.00s], num tris: 322
+[2025.09.25-14.43.41:469][792]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Input: 6 Clusters, 758 Triangles and 1309 Vertices
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Output without splits: 6 Clusters, 758 Triangles and 1309 Vertices
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Output with splits: 7 Clusters, 758 Triangles and 1309 Vertices
+[2025.09.25-14.43.41:469][792]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.43.41:469][792]LogStaticMesh: ConstrainClusters:
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Input: 6 Clusters, 758 Triangles and 1284 Vertices
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Output without splits: 6 Clusters, 758 Triangles and 1284 Vertices
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Output with splits: 7 Clusters, 758 Triangles and 1286 Vertices
+[2025.09.25-14.43.41:469][792]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.09.25-14.43.41:469][792]LogStaticMesh: WritePages:
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Root: GPU size: 15508 bytes. 1 Pages. 15508.000 bytes per page (47.327% utilization).
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Page data disk size: 13812 bytes. Fixup data size: 56 bytes.
+[2025.09.25-14.43.41:469][792]LogStaticMesh:   Total GPU size: 15508 bytes, Total disk size: 13868 bytes.
+[2025.09.25-14.43.41:469][792]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.43.41:469][792]LogStaticMesh: NaniteBuild [0.02s]
+[2025.09.25-14.43.41:470][792]LogStaticMesh: WritePages:
+[2025.09.25-14.43.41:470][792]LogStaticMesh:   Root: GPU size: 15336 bytes. 1 Pages. 15336.000 bytes per page (46.802% utilization).
+[2025.09.25-14.43.41:470][792]LogStaticMesh:   Streaming: 0 bytes.
+[2025.09.25-14.43.41:470][792]LogStaticMesh:   Page data disk size: 13500 bytes. Fixup data size: 56 bytes.
+[2025.09.25-14.43.41:470][792]LogStaticMesh:   Total GPU size: 15336 bytes, Total disk size: 13556 bytes.
+[2025.09.25-14.43.41:470][792]LogStaticMesh: Encode [0.00s]
+[2025.09.25-14.43.41:470][792]LogStaticMesh: NaniteBuild [0.02s]
+[2025.09.25-14.43.41:471][792]LogStaticMesh: Built static mesh [0.03s] /Game/Blueprints/Turret/Assets/Base.Base
+[2025.09.25-14.43.41:497][792]LogStaticMesh: Built static mesh [0.06s] /Game/Blueprints/Turret/Assets/BarrelR.BarrelR
+[2025.09.25-14.43.41:499][792]LogStaticMesh: Built static mesh [0.06s] /Game/Blueprints/Turret/Assets/BarrelL.BarrelL
+[2025.09.25-14.43.41:687][794]LogInterchangeEngine: Display: Interchange import completed [C:/Users/neche/OneDr...ents/Fall25Win26/GDW/Turret.fbx]
+[2025.09.25-14.43.41:690][794]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.09.25-14.43.41:690][794]LogInterchangeEngine: [Success] Import Done
+[2025.09.25-14.43.41:738][796]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/BarrelMaterial.BarrelMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.43.41:837][799]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/TurretMaterial.TurretMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.43.41:961][804]LogMaterial: Display: Material /Game/Blueprints/Turret/Assets/BaseMaterial.BaseMaterial needed to have new flag set bUsedWithNanite !
+[2025.09.25-14.43.46:648][ 75]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret
+[2025.09.25-14.43.46:648][ 75]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.09.25-14.44.52:411][914]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.44.52:438][914]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Turret/BP_Turret] ([2] browsable assets)...
+[2025.09.25-14.44.52:449][914]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Turret/BP_Turret.BP_Turret]
+[2025.09.25-14.44.52:449][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/BP_Turret]
+[2025.09.25-14.44.52:459][914]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/BP_Turret
+[2025.09.25-14.44.52:459][914]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BP_TurretDDCAE62641B1B68FE670968FF2278CFE.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/BP_Turret.uasset'
+[2025.09.25-14.44.52:466][914]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.097 ms (total: 2.94 sec)
+[2025.09.25-14.44.52:490][914]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-14.44.52:490][914]LogContentValidation: Enabled validators:
+[2025.09.25-14.44.52:490][914]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.44.52:490][914]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.44.52:490][914]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.44.52:490][914]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.44.52:490][914]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.44.52:490][914]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.44.52:490][914]AssetCheck: /Game/Blueprints/Turret/BP_Turret Validating asset
+[2025.09.25-14.44.53:672][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.09.25-14.44.56:369][982]LogSlate: Window 'Save Content' being destroyed
+[2025.09.25-14.44.56:410][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-14.44.56:435][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/BarrelL] ([1] browsable assets)...
+[2025.09.25-14.44.56:490][982]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprints/Turret/Assets/BarrelL.BarrelL]
+[2025.09.25-14.44.56:490][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/BarrelL]
+[2025.09.25-14.44.56:500][982]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/BarrelL
+[2025.09.25-14.44.56:500][982]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BarrelLFBC39BA64EE64E907CCD6080502662F1.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/BarrelL.uasset'
+[2025.09.25-14.44.56:503][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/BarrelMaterial] ([1] browsable assets)...
+[2025.09.25-14.44.56:522][982]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprints/Turret/Assets/BarrelMaterial.BarrelMaterial]
+[2025.09.25-14.44.56:522][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/BarrelMaterial]
+[2025.09.25-14.44.56:532][982]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/BarrelMaterial
+[2025.09.25-14.44.56:532][982]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BarrelMaterial7C84130347250029B0DA958D04E6E625.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/BarrelMaterial.uasset'
+[2025.09.25-14.44.56:533][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/BarrelR] ([1] browsable assets)...
+[2025.09.25-14.44.56:551][982]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprints/Turret/Assets/BarrelR.BarrelR]
+[2025.09.25-14.44.56:551][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/BarrelR]
+[2025.09.25-14.44.56:562][982]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/BarrelR
+[2025.09.25-14.44.56:562][982]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BarrelR69D876EB43B67E327AEA37A3063B8A5A.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/BarrelR.uasset'
+[2025.09.25-14.44.56:564][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/Base] ([1] browsable assets)...
+[2025.09.25-14.44.56:582][982]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprints/Turret/Assets/Base.Base]
+[2025.09.25-14.44.56:582][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/Base]
+[2025.09.25-14.44.56:590][982]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/Base
+[2025.09.25-14.44.56:590][982]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/Base060183784A32AF75305798972F14AFB3.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/Base.uasset'
+[2025.09.25-14.44.56:592][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/BaseMaterial] ([1] browsable assets)...
+[2025.09.25-14.44.56:602][982]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprints/Turret/Assets/BaseMaterial.BaseMaterial]
+[2025.09.25-14.44.56:602][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/BaseMaterial]
+[2025.09.25-14.44.56:612][982]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/BaseMaterial
+[2025.09.25-14.44.56:612][982]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/BaseMaterial59FE608E46873C237549A49510D3B15A.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/BaseMaterial.uasset'
+[2025.09.25-14.44.56:613][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/Turret] ([1] browsable assets)...
+[2025.09.25-14.44.56:629][982]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprints/Turret/Assets/Turret.Turret]
+[2025.09.25-14.44.56:629][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/Turret]
+[2025.09.25-14.44.56:638][982]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/Turret
+[2025.09.25-14.44.56:638][982]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/Turret36D4E3EC467824EFEAEA30976840BF35.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/Turret.uasset'
+[2025.09.25-14.44.56:641][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret/Assets/TurretMaterial] ([1] browsable assets)...
+[2025.09.25-14.44.56:652][982]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprints/Turret/Assets/TurretMaterial.TurretMaterial]
+[2025.09.25-14.44.56:652][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret/Assets/TurretMaterial]
+[2025.09.25-14.44.56:662][982]LogSavePackage: Moving output files for package: /Game/Blueprints/Turret/Assets/TurretMaterial
+[2025.09.25-14.44.56:662][982]LogSavePackage: Moving '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/TurretMaterial5EA5CEDF4999B653FFD311B887EF416E.tmp' to '../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Content/Blueprints/Turret/Assets/TurretMaterial.uasset'
+[2025.09.25-14.44.56:672][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 261.628 ms (total: 3.20 sec)
+[2025.09.25-14.44.56:697][982]LogStall: Shutdown...
+[2025.09.25-14.44.56:697][982]LogStall: Shutdown complete.
+[2025.09.25-14.44.56:718][982]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.44.56:718][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.44.56:758][982]LogSlate: Window 'GDW_Tutorial - Unreal Editor' being destroyed
+[2025.09.25-14.44.56:760][982]LogWindowsTextInputMethodSystem: Activated input method: English (Canada) - (Keyboard).
+[2025.09.25-14.44.57:038][982]LogContentValidation: Display: Starting to validate 7 assets
+[2025.09.25-14.44.57:039][982]LogContentValidation: Enabled validators:
+[2025.09.25-14.44.57:039][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-14.44.57:039][982]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-14.44.57:039][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-14.44.57:039][982]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-14.44.57:039][982]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-14.44.57:039][982]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-14.44.57:039][982]AssetCheck: /Game/Blueprints/Turret/Assets/BarrelL Validating asset
+[2025.09.25-14.44.57:039][982]AssetCheck: /Game/Blueprints/Turret/Assets/BarrelMaterial Validating asset
+[2025.09.25-14.44.57:039][982]AssetCheck: /Game/Blueprints/Turret/Assets/BarrelR Validating asset
+[2025.09.25-14.44.57:039][982]AssetCheck: /Game/Blueprints/Turret/Assets/Base Validating asset
+[2025.09.25-14.44.57:039][982]AssetCheck: /Game/Blueprints/Turret/Assets/BaseMaterial Validating asset
+[2025.09.25-14.44.57:039][982]AssetCheck: /Game/Blueprints/Turret/Assets/Turret Validating asset
+[2025.09.25-14.44.57:039][982]AssetCheck: /Game/Blueprints/Turret/Assets/TurretMaterial Validating asset
+[2025.09.25-14.44.57:119][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.09.25-14.44.57:143][982]Cmd: QUIT_EDITOR
+[2025.09.25-14.44.57:144][982]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.09.25-14.44.57:145][982]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/neche/OneDrive/Documents/GitHub/GDW-GitHub-Repo/GDW_Tutorial/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.25-14.44.57:150][983]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.09.25-14.44.57:151][983]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.09.25-14.44.57:151][983]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.09.25-14.44.57:151][983]LogWorld: UWorld::CleanupWorld for Tutorial_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.44.57:151][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.44.57:157][983]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.09.25-14.44.57:157][983]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.09.25-14.44.57:158][983]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.09.25-14.44.57:182][983]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.44.57:182][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.44.57:185][983]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.44.57:185][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.44.57:187][983]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.44.57:187][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.44.57:188][983]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-14.44.57:188][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-14.44.57:190][983]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.09.25-14.44.57:190][983]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.09.25-14.44.57:192][983]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.09.25-14.44.57:688][983]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.09.25-14.44.57:688][983]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.09.25-14.44.57:688][983]LogAudio: Display: Audio Device unregistered from world 'Tutorial_3'.
+[2025.09.25-14.44.57:688][983]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.09.25-14.44.57:688][983]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.09.25-14.44.57:692][983]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.09.25-14.44.57:713][983]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.09.25-14.44.57:713][983]LogAudio: Display: Audio Device Manager Shutdown
+[2025.09.25-14.44.57:720][983]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.09.25-14.44.57:721][983]LogExit: Preparing to exit.
+[2025.09.25-14.44.57:819][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.09.25-14.44.57:827][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:827][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:827][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:828][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:828][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:828][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:828][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:828][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:828][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:828][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.57:829][983]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-14.44.58:427][983]LogEditorDataStorage: Deinitializing
+[2025.09.25-14.44.58:593][983]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.09.25-14.44.58:657][983]LogExit: Editor shut down
+[2025.09.25-14.44.58:672][983]LogExit: Transaction tracking system shut down
+[2025.09.25-14.44.59:069][983]LogExit: Object subsystem successfully closed.
+[2025.09.25-14.44.59:176][983]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.09.25-14.44.59:492][983]LogMemoryProfiler: Shutdown
+[2025.09.25-14.44.59:493][983]LogNetworkingProfiler: Shutdown
+[2025.09.25-14.44.59:493][983]LoadingProfiler: Shutdown
+[2025.09.25-14.44.59:493][983]LogTimingProfiler: Shutdown
+[2025.09.25-14.44.59:493][983]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.09.25-14.44.59:493][983]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.09.25-14.45.00:043][983]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.09.25-14.45.00:062][983]LogNFORDenoise: NFORDenoise function shutting down
+[2025.09.25-14.45.00:062][983]RenderDocPlugin: plugin has been unloaded.
+[2025.09.25-14.45.00:108][983]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.09.25-14.45.00:108][983]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A45DF35-41D4-877F-D1F2-95A03A2AAAB0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=455759b14cef98731107c1823b5e1380%7Ca34c1f7d6b184f9592e999e938cbeac0%7C12c4005c-16e4-446f-bde3-7e0337ef9559&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.09.25-14.45.00:129][983]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.09.25-14.45.00:136][983]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.09.25-14.45.00:136][983]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.09.25-14.45.00:136][983]LogPakFile: Destroying PakPlatformFile
